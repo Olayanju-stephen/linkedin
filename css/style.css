@@ -40,6 +40,41 @@
  text-decoration: none;
 }
 
+.home {
+ width: 360px;
+ height: 620px;
+ margin: auto;
+ border-radius: 3px;
+}
+
+form{
+ width: 300px;
+ margin-left: 20px;
+}
+
+form label{
+ display: flex;
+ margin-top: 20px;
+ font-size: 18px;
+}
+
+form input{
+ width: 100%;
+ padding: 7px;
+ border: none;
+ border: 1px solid black;
+ border-radius: 6px;
+ outline: none;
+}
+
+input[type="button"]{
+ width: 320px;
+ height: 35px;
+ margin-top: 20px;
+ border: none;
+ background-color: blue;
+}
+
 .login {
  display: flex;
  gap: 12px;
